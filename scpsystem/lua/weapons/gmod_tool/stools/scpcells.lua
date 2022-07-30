@@ -43,7 +43,7 @@ function TOOL:DrawToolScreen( width, height )
 	surface.SetDrawColor( Color( 20, 20, 20 ) )
 	surface.DrawRect( 0, 0, width, height )
 
-	draw.SimpleText( "Praise Matthias!", "DermaLarge", width / 2, height / 2, Color( 200, 200, 200 ), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER )
+	draw.SimpleText( "Copyright! STEAM_1:1:156458482", "DermaLarge", width / 2, height / 2, Color( 200, 200, 200 ), TEXT_ALIGN_CENTER, TEXT_ALIGN_CENTER )
 end
 
 function TOOL:SetDoorValues(colVec)
